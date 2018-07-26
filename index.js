@@ -24,13 +24,13 @@ function slot(){
 	//東京
 	if(random<40){
 		$('#id').text("銀座");
-		$('#comment').text("そうこなくっちゃ");
+		$('#comment').text("コリドー！！！");
 		}else if(40<=random&&random<50){
 			$('#id').text("赤阪");
-			$('#comment').text("まずはね");
+			$('#comment').text("悪くない。");
 		}else if(50<=random&&random<60) {
 			$('#id').text("六本木");
-			$('#comment').text("行きたくなるよね。");
+			$('#comment').text("クラブ行くか！！");
 		}else if(60<=random&&random<70){
 			$('#id').text("かめちゃんち");
 			$('#comment').text("ちょっと遠いけど");
@@ -39,7 +39,7 @@ function slot(){
 			$('#comment').text("まじか。。");
 		}else{
 			$('#id').text("解散");
-			$('#comment').text("からの〜？");
+			$('#comment').text("それはやめよ（笑）");
 		}
 }
 

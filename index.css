@@ -14,3 +14,8 @@
 #stop, #reset{
 	display:none;
 }
+
+.container {
+height:1000px;
+background-image: url("../20130528-P5280227_TP_V4.jpg");
+}
